@@ -5,7 +5,7 @@ export async function GET() {
   const cookieStore = await cookies();
   const session = cookieStore.get("admin_session");
 
-  if (!session || session.value !== "authenticated") {
+  if (session?.value !== "authenticated") {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

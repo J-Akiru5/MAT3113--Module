@@ -20,6 +20,7 @@ function RichTextBlock({ block }: { block: Extract<Block, { type: "richtext" }> 
   return (
     <div
       className="prose prose-gray max-w-none text-ink"
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: content is author-controlled JSON
       dangerouslySetInnerHTML={{ __html: block.html }}
     />
   );
@@ -34,6 +35,7 @@ function TableBlock({ block }: { block: Extract<Block, { type: "table" }> }) {
           <tr>
             {block.columns.map((col, i) => (
               <th
+                // biome-ignore lint/suspicious/noArrayIndexKey: static column headers
                 key={i}
                 className="border border-border bg-navy px-3 py-2 text-left text-xs font-semibold text-white"
               >
@@ -44,8 +46,10 @@ function TableBlock({ block }: { block: Extract<Block, { type: "table" }> }) {
         </thead>
         <tbody>
           {block.rows.map((row, ri) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: table rows are static
             <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-zinc-50"}>
               {row.map((cell, ci) => (
+                // biome-ignore lint/suspicious/noArrayIndexKey: table cells are static
                 <td key={ci} className="border border-border px-3 py-2">
                   {cell}
                 </td>
@@ -61,6 +65,7 @@ function TableBlock({ block }: { block: Extract<Block, { type: "table" }> }) {
 function ImageBlock({ block }: { block: Extract<Block, { type: "image" }> }) {
   return (
     <figure className="my-6 text-center">
+      {/* biome-ignore lint/performance/noImgElement: dynamic images from content */}
       <img
         src={`/images/${block.assetId}.png`}
         alt={block.alt}
@@ -89,14 +94,19 @@ function CalloutBlock({ block }: { block: Extract<Block, { type: "callout" }> })
       {block.html ? (
         <div
           className="prose prose-sm max-w-none"
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: content is author-controlled JSON
           dangerouslySetInnerHTML={{ __html: block.html }}
         />
       ) : null}
       {block.items && block.items.length > 0 && (
         <ul className="ml-5 list-disc space-y-1 text-sm">
           {block.items.map((item, i) => (
-            // biome-ignore lint/security/noDangerouslySetInnerHtml: content is author-controlled JSON
-            <li key={i} dangerouslySetInnerHTML={{ __html: item }} />
+            <li
+              // biome-ignore lint/suspicious/noArrayIndexKey: static items
+              key={i}
+              // biome-ignore lint/security/noDangerouslySetInnerHtml: content is author-controlled JSON
+              dangerouslySetInnerHTML={{ __html: item }}
+            />
           ))}
         </ul>
       )}
@@ -120,6 +130,7 @@ function QuizBlock({ block }: { block: Extract<Block, { type: "quiz" }> }) {
               <div className="mt-2 ml-5 space-y-1">
                 {q.options.map((opt, oi) => (
                   <label
+                    // biome-ignore lint/suspicious/noArrayIndexKey: static options
                     key={oi}
                     className="flex items-center gap-2 text-gray cursor-pointer hover:text-ink"
                   >
@@ -167,6 +178,7 @@ function RubricBlock({ block }: { block: Extract<Block, { type: "rubric" }> }) {
             </th>
             {block.columns.map((col, i) => (
               <th
+                // biome-ignore lint/suspicious/noArrayIndexKey: static column headers
                 key={i}
                 className="border border-border bg-navy px-3 py-2 text-center font-semibold text-white"
               >
@@ -177,9 +189,11 @@ function RubricBlock({ block }: { block: Extract<Block, { type: "rubric" }> }) {
         </thead>
         <tbody>
           {block.rows.map((row, ri) => (
+            // biome-ignore lint/suspicious/noArrayIndexKey: static rows
             <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-zinc-50"}>
               <td className="border border-border px-3 py-2 font-medium">{row.criteria}</td>
               {row.ratings.map((rating, ci) => (
+                // biome-ignore lint/suspicious/noArrayIndexKey: static cells
                 <td key={ci} className="border border-border px-3 py-2 text-center">
                   {rating}
                 </td>

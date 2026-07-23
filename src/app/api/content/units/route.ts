@@ -5,7 +5,7 @@ export async function GET() {
   try {
     const units = loadAllUnits();
     return NextResponse.json(units);
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: "Failed to load content" }, { status: 500 });
   }
 }

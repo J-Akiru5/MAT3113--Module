@@ -125,10 +125,11 @@ export function UnitEditor({ unit: initialUnit }: Props) {
               {expanded[section.id] && (
                 <div className="border-t border-border px-4 py-3">
                   <div className="mb-3">
-                    <label className="block text-xs font-semibold text-gray mb-1">
+                    <label htmlFor={`heading-${section.id}`} className="block text-xs font-semibold text-gray mb-1">
                       Section Heading
                     </label>
                     <input
+                      id={`heading-${section.id}`}
                       type="text"
                       value={section.heading}
                       onChange={(e) => updateSection(section.id, { heading: e.target.value })}

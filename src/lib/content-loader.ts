@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 import type { AboutAuthor, Appendix, BookContent, Reference, Unit } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");

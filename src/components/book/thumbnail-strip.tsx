@@ -56,6 +56,7 @@ export function ThumbnailStrip({ pages, currentPage, onPageSelect }: ThumbnailSt
               <div className="mt-1 space-y-0.5">
                 {[70, 90, 60, 80, 50].map((w, i) => (
                   <div
+                    // biome-ignore lint/suspicious/noArrayIndexKey: static array
                     key={i}
                     className={cn(
                       "h-0.5 rounded-full",

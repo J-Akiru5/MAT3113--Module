@@ -2,7 +2,7 @@
 // Run via: pnpm generate-pdf
 // Requires Playwright browsers installed: pnpm exec playwright install chromium
 
-import path from "path";
+import path from "node:path";
 import { chromium } from "playwright";
 
 const BASE_URL = process.env.BASE_URL ?? "http://localhost:3000";
