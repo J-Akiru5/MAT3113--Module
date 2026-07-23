@@ -1,0 +1,86 @@
+{
+  "id": "appendix-a",
+  "order": 101,
+  "title": "Assessment Tools and Rubrics",
+  "label": "Appendix A",
+  "blocks": [
+    {
+      "id": "appA-1",
+      "type": "rubric",
+      "title": "Problem Solving Rubric",
+      "columns": ["4 — Excellent", "3 — Proficient", "2 — Developing", "1 — Beginning"],
+      "rows": [
+        {"criteria": "Understanding", "ratings": ["Deep understanding", "Essential understanding", "Partial understanding", "Limited understanding"]},
+        {"criteria": "Strategy", "ratings": ["Sophisticated, multiple approaches", "Effective strategy", "Limited strategy", "No clear strategy"]},
+        {"criteria": "Explanation", "ratings": ["Clear, complete with justification", "Adequate explanation", "Partial explanation", "Incomplete explanation"]}
+      ]
+    },
+    {
+      "id": "appA-2",
+      "type": "rubric",
+      "title": "Assessment Rubric for Mathematical Investigation",
+      "columns": ["Exemplary (4)", "Proficient (3)", "Developing (2)", "Beginning (1)"],
+      "rows": [
+        {"criteria": "Problem Formulation & Exploration", "ratings": ["Poses rich 'what if' questions, explores systematically and creatively", "Explores the problem systematically using multiple strategies", "Explores but strategy is limited or unsystematic", "Struggles to engage with or explore the problem"]},
+        {"criteria": "Pattern Recognition & Conjecturing", "ratings": ["Makes insightful observations, formulates clear non-trivial conjectures", "Makes valid observations, states clear conjectures based on evidence", "Makes simple observations, conjectures are vague", "Fails to identify patterns or state clear conjecture"]},
+        {"criteria": "Reasoning & Justification", "ratings": ["Provides clear, logical, creative argument or proof", "Provides logical argument, minor gaps may exist", "Attempts explanation but illogical or incomplete", "No valid justification provided"]},
+        {"criteria": "Communication (Written & Oral)", "ratings": ["Exceptionally clear, well-organized, engaging. Presentation is confident and compelling", "Clear and organized. Presentation covers main points", "Report is disorganized or unclear. Presentation difficult to follow", "Report is incoherent. Presentation is minimal and unclear"]},
+        {"criteria": "Reflection & Extension", "ratings": ["Reflects deeply on process, proposes insightful novel extensions", "Reflects on process, proposes logical extension", "Superficial reflection or simplistic extension", "No meaningful reflection or extension"]}
+      ]
+    },
+    {
+      "id": "appA-3",
+      "type": "rubric",
+      "title": "Grading Rubric for Worksheet (Chapter 1)",
+      "columns": ["Excellent (10)", "Proficient (8)", "Developing (6)", "Beginning (4)"],
+      "rows": [
+        {"criteria": "Understanding (10 pts) — Clear restatement, identification of known/unknown", "ratings": ["Comprehensive understanding, clear restatement", "Good understanding of problem elements", "Partial understanding shown", "Limited understanding"]},
+        {"criteria": "Planning (10 pts) — Multiple strategies considered, logical approach", "ratings": ["Multiple strategies, excellent plan", "Good strategy selection", "Basic plan outlined", "No clear plan"]},
+        {"criteria": "Execution (10 pts) — Clear work shown, correct solution", "ratings": ["Complete, error-free work", "Mostly correct with minor errors", "Some correct work shown", "Significant errors"]},
+        {"criteria": "Reflection (10 pts) — Verification, alternative methods, extensions", "ratings": ["Thorough verification and extensions", "Good reflection with alternatives", "Basic reflection", "Minimal reflection"]}
+      ]
+    },
+    {
+      "id": "appA-4",
+      "type": "richtext",
+      "html": "<h4>Personal Reflection Rubric (Chapter 1, Worksheet 2 — 30 points)</h4><ul><li><strong>Personal Experience (10 pts):</strong> Insightful, connects to research</li><li><strong>Professional Growth (10 pts):</strong> Realistic challenges and solutions</li><li><strong>Action Plan (10 pts):</strong> Specific, implementable strategies</li></ul>"
+    },
+    {
+      "id": "appA-5",
+      "type": "rubric",
+      "title": "Collaboration Assessment Rubric",
+      "columns": ["Excellent (4)", "Proficient (3)", "Developing (2)", "Beginning (1)"],
+      "rows": [
+        {"criteria": "Active Participation", "ratings": ["Consistently contributes and engages", "Regularly participates", "Occasional participation", "Minimal involvement"]},
+        {"criteria": "Quality of Contribution", "ratings": ["Ideas are insightful and mathematical", "Contributions are relevant", "Some relevant input", "Limited meaningful input"]},
+        {"criteria": "Teamwork Skills", "ratings": ["Excellent collaboration and support", "Works well with others", "Some collaboration", "Works primarily alone"]},
+        {"criteria": "Conflict Resolution", "ratings": ["Handles disagreements constructively", "Usually resolves issues", "Needs help with conflicts", "Avoids or escalates conflicts"]}
+      ]
+    },
+    {
+      "id": "appA-6",
+      "type": "rubric",
+      "title": "Mathematical Content Assessment for MI Paper",
+      "columns": ["Excellent (4)", "Proficient (3)", "Developing (2)", "Beginning (1)"],
+      "rows": [
+        {"criteria": "Problem Formulation", "ratings": ["Creative, significant question", "Clear, investigable question", "Vague or too simple", "Unclear question"]},
+        {"criteria": "Data Collection", "ratings": ["Systematic, comprehensive", "Organized, adequate data", "Some organization", "Random data"]},
+        {"criteria": "Conjecture Development", "ratings": ["Insightful, testable hypotheses", "Clear conjectures", "Simple observations", "No clear conjectures"]},
+        {"criteria": "Verification & Proof", "ratings": ["Rigorous, multiple methods", "Adequate verification", "Limited testing", "No verification"]},
+        {"criteria": "Mathematical Communication", "ratings": ["Clear, precise, well-organized", "Generally clear", "Some clarity", "Unclear communication"]}
+      ]
+    },
+    {
+      "id": "appA-7",
+      "type": "rubric",
+      "title": "Presentation Assessment",
+      "columns": ["Excellent (4)", "Proficient (3)", "Developing (2)", "Beginning (1)"],
+      "rows": [
+        {"criteria": "Content Delivery", "ratings": ["Engaging, well-paced", "Clear presentation", "Some organization", "Disorganized"]},
+        {"criteria": "Visual Aids", "ratings": ["Professional, enhances understanding", "Clear and relevant", "Basic visuals", "Poor quality"]},
+        {"criteria": "Collaborative Presentation", "ratings": ["Smooth transitions, equal participation", "Good coordination", "Unequal participation", "One person dominates"]},
+        {"criteria": "Q&A Performance", "ratings": ["Thoughtful, mathematical responses", "Adequate answers", "Struggles with questions", "Unable to answer"]}
+      ]
+    }
+  ]
+}

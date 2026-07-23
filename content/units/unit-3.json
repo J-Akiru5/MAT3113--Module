@@ -1,0 +1,304 @@
+{
+  "id": "unit-3",
+  "order": 3,
+  "title": "Concepts on Mathematical Investigation and Modelling",
+  "sections": [
+    {
+      "id": "unit-3-sec-0",
+      "order": 0,
+      "heading": "Learning Objectives",
+      "blocks": [
+        {
+          "id": "u3b0",
+          "type": "callout",
+          "style": "objective",
+          "title": "By the end of this module, you will be able to:",
+          "items": [
+            "Pose problems based on a given situation",
+            "Understand the stages or parts of a Mathematical Investigation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-3-sec-1",
+      "order": 1,
+      "heading": "3.1 Introduction to Mathematical Investigation and Modelling",
+      "blocks": [
+        {
+          "id": "u3b1",
+          "type": "richtext",
+          "html": "<p>A mathematical investigation begins with a situation that must be understood or a set of data that must be organized and explained in mathematical terms. It is essential to run the risk of proposing conjectures. Testing these conjectures and collecting more data may support them or lead to new conjectures.</p><p>A mathematical investigation allows students to examine situations using various techniques and, in the process of their exploration, develop skills that can be applied to other problems.</p>"
+        },
+        {
+          "id": "u3b2",
+          "type": "callout",
+          "style": "key-point",
+          "title": "Definitions",
+          "html": "<p><strong>Mathematical Investigation</strong> refers to a systematic exploration of mathematical situations to discover patterns, relationships, and properties.</p><p><strong>Mathematical Modeling</strong> refers to the process of using mathematics to represent, analyze, and solve real-world problems.</p>"
+        },
+        {
+          "id": "u3b3",
+          "type": "table",
+          "caption": "Mathematical Investigation vs. Mathematical Modelling",
+          "columns": ["Aspect", "Mathematical Investigation", "Mathematical Modelling"],
+          "rows": [
+            ["Focus", "Focuses on pure mathematics", "Connects math to the real world"],
+            ["Purpose", "Explores patterns and relationships", "Solves practical problems"],
+            ["Nature", "Often open-ended", "Usually has a specific application"],
+            ["Orientation", "Process-oriented", "Solution-oriented"]
+          ]
+        },
+        {
+          "id": "u3b4",
+          "type": "richtext",
+          "html": "<p><strong>Example:</strong> Investigate the relationship between the number of sides of a regular polygon and the number of diagonals.</p>"
+        },
+        {
+          "id": "u3b5",
+          "type": "callout",
+          "style": "objective",
+          "title": "Why Conduct a Mathematical Investigation?",
+          "items": [
+            "Experience methods of planning, organizing, analyzing, and evaluating data",
+            "Freely choose what aspects of the problem situation they would like to pursue and what strategies they would use",
+            "Apply appropriate mathematics or discover a mathematical relationship",
+            "Develop questions, approaches, and results that are, at least for them, original products",
+            "Use the same general methods used by research mathematicians — cycles of data gathering, visualization, abstraction, conjecturing, and proof",
+            "Communicate mathematically by describing their thinking, writing definitions and conjectures, using symbols, justifying conclusions, and reading mathematics",
+            "Formulate their own questions from a given situation — giving teachers a clear indication of their level of knowledge and understanding"
+          ]
+        },
+        {
+          "id": "u3b6",
+          "type": "richtext",
+          "html": "<h4>Possible Approaches for the Polygon Diagonal Investigation:</h4><ul><li>Draw polygons and count diagonals</li><li>Look for patterns in the numbers</li><li>Develop a general formula</li><li>Test and verify the formula</li></ul>"
+        }
+      ]
+    },
+    {
+      "id": "unit-3-sec-2",
+      "order": 2,
+      "heading": "3.2 Stages in Conducting Mathematical Investigation",
+      "blocks": [
+        {
+          "id": "u3b7",
+          "type": "richtext",
+          "html": "<h3>The Seven-Stage Investigation Process</h3>"
+        },
+        {
+          "id": "u3b8",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 1: Starting Point",
+          "html": "<p><em>First decide who will be doing the investigation — individual, group, or class. What will be investigated?</em></p><p><strong>Choosing an Investigation Topic:</strong></p><ul><li>Personal interest and curiosity</li><li>Mathematical significance</li><li>Accessibility of resources</li><li>Potential for discovery</li></ul><p>Use mind mapping, brainstorming, lateral thinking, 5 Es (Engage, Explore, Explain, Elaborate, Evaluate). Begin a log or journal. Generate ideas for the topic and related mathematical content. Select a topic and outline the investigation content. Develop a timeline.</p><p><strong>Examples:</strong> What happens when you add consecutive odd numbers? Investigate patterns in Pascal's Triangle. Explore the Fibonacci sequence in nature.</p>"
+        },
+        {
+          "id": "u3b9",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 2: Exploring",
+          "html": "<p>Start with the simplest possible cases and build up systematically to more complex cases. Note every observation and record everything.</p><ul><li>Systematic listing/drawing</li><li>Organizing relationships in tables or graphs</li><li>Look for similarities, differences, or connections between cases</li></ul><p><strong>Example (Polygon Diagonals):</strong><br>Triangle: 0 diagonals<br>Quadrilateral: 2 diagonals<br>Pentagon: 5 diagonals<br>Hexagon: 9 diagonals<br>Heptagon: 14 diagonals</p>"
+        },
+        {
+          "id": "u3b10",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 3: Conjecturing",
+          "html": "<p>Exploring systematically should permit some patterns or relationships to begin to emerge. Make general statements about patterns or relationships observed in the cases considered.</p><p><strong>Forming Tentative Generalizations:</strong> Based on observed patterns, clear and testable statements, mathematically precise.</p><p><strong>Example Conjecture:</strong> <em>For an n-sided polygon, the number of diagonals is n(n−3)/2</em></p>"
+        },
+        {
+          "id": "u3b11",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 4: Testing",
+          "html": "<p>Check the consistency of conjectures using existing cases. If the data for one or more instances do not agree with the conjecture, then it is false (a counterexample) and must be either rejected or revised.</p><p><strong>Testing the Diagonal Formula:</strong><br>Octagon: 8(8−3)/2 = 20 diagonals ✓<br>Nonagon: 9(9−3)/2 = 27 diagonals ✓</p>"
+        },
+        {
+          "id": "u3b12",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 5: Explaining",
+          "html": "<p>Explain why the conjectures will work for a few or all cases. Prove the conjectures (by mathematical induction, direct/indirect proof, visual proof). See the connection among conjectures. Get a deeper understanding of the investigation as you work longer on it. Gestation may occur.</p><p><strong>Justifying the Diagonal Formula:</strong> Each vertex connects to n−3 others (excluding itself and neighbors). n vertices × (n−3) connections. Divide by 2 to avoid double-counting: n(n−3)/2.</p>"
+        },
+        {
+          "id": "u3b13",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 6: Communicating",
+          "html": "<p>Present findings through clear written reports, visual representations, oral presentations, and proper mathematical notation.</p>"
+        },
+        {
+          "id": "u3b14",
+          "type": "callout",
+          "style": "objective",
+          "title": "Stage 7: Extending",
+          "html": "<p>Pose new questions: What if conditions change? Can this be generalized further? Related investigations?</p><p><strong>Extensions for Diagonal Investigation:</strong> \"What about 3D polyhedra?\" \"Investigate intersecting diagonals\" \"Explore relationships between diagonals and triangles formed\"</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-3-sec-3",
+      "order": 3,
+      "heading": "3.3 Mathematical Problem Posing",
+      "blocks": [
+        {
+          "id": "u3b15",
+          "type": "richtext",
+          "html": "<p>The art of creating new mathematical problems or reformulating existing ones.</p>"
+        },
+        {
+          "id": "u3b16",
+          "type": "callout",
+          "style": "note",
+          "title": "Strategy 1: What-if-not",
+          "html": "<p>Change the conditions of existing problems.</p><p><strong>Original Problem:</strong> Find the area of a rectangle with length 8 and width 5.</p><p><strong>What-if-not Questions:</strong> What if it's not a rectangle but a parallelogram? What if we fix the perimeter instead of dimensions? What if we want maximum area with fixed perimeter?</p>"
+        },
+        {
+          "id": "u3b17",
+          "type": "callout",
+          "style": "note",
+          "title": "Strategy 2: Generalize/Specialize",
+          "html": "<p>Make problems broader or more specific.</p><p><strong>Original:</strong> Solve x² − 5x + 6 = 0<br><strong>Generalize:</strong> For what values of k does x² − 5x + k = 0 have real roots?<br><strong>Specialize:</strong> Find a quadratic with roots 2 and 3.</p>"
+        },
+        {
+          "id": "u3b18",
+          "type": "callout",
+          "style": "note",
+          "title": "Strategy 3: Reverse Thinking",
+          "html": "<p>Start from solution and work backward.</p><p><strong>Original:</strong> Prove the Pythagorean theorem.<br><strong>Reverse:</strong> Given a² + b² = c², what can you say about the triangle?</p>"
+        },
+        {
+          "id": "u3b19",
+          "type": "callout",
+          "style": "note",
+          "title": "Strategy 4: Change Representation",
+          "html": "<p>Express the same concept differently.</p><p><strong>Algebraic → Geometric:</strong> Show geometrically why (a+b)² = a² + 2ab + b²<br><strong>Numerical → Graphical:</strong> Graph the relationship between roots and coefficients.</p>"
+        },
+        {
+          "id": "u3b20",
+          "type": "richtext",
+          "html": "<h3>Mathematical Modelling Process — The Modeling Cycle</h3><p><strong>Step 1:</strong> Understand the Real-World Problem<br><strong>Step 2:</strong> Formulate the Mathematical Model<br><strong>Step 3:</strong> Solve the Mathematical Problem<br><strong>Step 4:</strong> Interpret the Results<br><strong>Step 5:</strong> Validate the Model</p>"
+        },
+        {
+          "id": "u3b21",
+          "type": "callout",
+          "style": "note",
+          "title": "Example: Population Growth Model",
+          "html": "<p><strong>Real Problem:</strong> Predict the population of a city in 10 years.<br><strong>Mathematical Model:</strong> Assume exponential growth: P(t) = P₀e^(rt). P₀ = current population, r = growth rate, t = time in years.<br><strong>Solution and Interpretation:</strong> Calculate P(10) using the formula. Consider factors affecting accuracy. Suggest model improvements.</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-3-sec-4",
+      "order": 4,
+      "heading": "Investigation Projects",
+      "blocks": [
+        {
+          "id": "u3b22",
+          "type": "richtext",
+          "html": "<p><strong>Your Turn:</strong> Choose ONE of the following to investigate over the next two weeks. You will submit a written report and give a short presentation.</p>"
+        },
+        {
+          "id": "u3b23",
+          "type": "callout",
+          "style": "reminder",
+          "title": "Project A: The Locker Problem",
+          "html": "<p><strong>Scenario:</strong> A school has 1000 lockers, all closed. 1000 students walk by. The first student opens every locker. The second student closes every second locker. The third student changes the state of every third locker. This continues until the 1000th student.</p><p><strong>Investigate:</strong> Which lockers are open at the end? Why? What is the pattern? Can you generalize for 'n' lockers and 'n' students?</p>"
+        },
+        {
+          "id": "u3b24",
+          "type": "callout",
+          "style": "reminder",
+          "title": "Project B: Palindromic Numbers",
+          "html": "<p><strong>Scenario:</strong> A palindromic number reads the same forwards and backwards (e.g., 121, 1331, 404).</p><p><strong>Investigate:</strong> Take any number. Reverse its digits and add it to the original. Repeat the process with the sum. Does this always eventually produce a palindrome? (e.g., 57 → 57+75=132 → 132+231=363, a palindrome). Are there numbers that don't seem to work? (These are called Lychrel numbers).</p>"
+        },
+        {
+          "id": "u3b25",
+          "type": "callout",
+          "style": "reminder",
+          "title": "Project C: Area & Perimeter",
+          "html": "<p><strong>Scenario:</strong> You have 24 one-meter fencing segments to make a rectangular pen.</p><p><strong>Investigate:</strong> What different rectangles can you make? How does the area change as the dimensions change? What shape gives the maximum area? Can you generalize for 'p' segments of fencing?</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-3-sec-5",
+      "order": 5,
+      "heading": "Chapter 3 Worksheets",
+      "blocks": [
+        {
+          "id": "u3b26",
+          "type": "worksheet",
+          "title": "Classroom Activity No. 1: Number Pattern Investigation",
+          "instructions": "Investigate the sum of consecutive odd numbers.",
+          "problems": [
+            {
+              "id": "ca1-p1",
+              "number": 1,
+              "text": "<strong>Observe:</strong><br>1 = 1<br>1 + 3 = 4<br>1 + 3 + 5 = 9<br>1 + 3 + 5 + 7 = 16<br><br><strong>Guiding Questions:</strong><br>• What pattern do you notice?<br>• Can you predict the sum of first n odd numbers?<br>• Can you explain why this pattern occurs?"
+            }
+          ]
+        },
+        {
+          "id": "u3b27",
+          "type": "worksheet",
+          "title": "Classroom Activity No. 2: Real-World Modeling Project",
+          "instructions": "Design the most cost-effective packaging for 500ml of juice.",
+          "problems": [
+            {
+              "id": "ca2-p1",
+              "number": 1,
+              "text": "<strong>Mathematical Considerations:</strong><br>• Surface area to volume ratio<br>• Manufacturing constraints<br>• Material costs<br>• Consumer preferences"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-3-sec-6",
+      "order": 6,
+      "heading": "Chapter 3 Quiz",
+      "blocks": [
+        {
+          "id": "u3b28",
+          "type": "quiz",
+          "refId": "chapter-3-quiz",
+          "title": "Chapter 3 Quiz",
+          "questions": [
+            {"id":"q3-1","text":"What is the main focus of mathematical investigation?","type":"multiple-choice","options":["A) Solving real-world practical problems","B) Systematic exploration of mathematical situations","C) Applying formulas to get quick answers","D) Memorizing mathematical theorems"],"answer":"B"},
+            {"id":"q3-2","text":"Which stage involves forming tentative generalizations based on observed patterns?","type":"multiple-choice","options":["A) Starting Point","B) Exploring","C) Conjecturing","D) Testing"],"answer":"C"},
+            {"id":"q3-3","text":"The problem posing strategy that involves changing conditions of existing problems is called:","type":"multiple-choice","options":["A) Reverse Thinking","B) Generalize/Specialize","C) What-if-not","D) Change Representation"],"answer":"C"},
+            {"id":"q3-4","text":"In the polygon diagonals investigation, what was the formula for an n-sided polygon?","type":"multiple-choice","options":["A) n(n-2)/2","B) n(n-3)/2","C) 2n-3","D) n²/2"],"answer":"B"},
+            {"id":"q3-5","text":"Which is a key characteristic of mathematical modelling?","type":"multiple-choice","options":["A) Focuses only on pure mathematics","B) Connects mathematics to real-world problems","C) Avoids practical applications","D) Is always open-ended"],"answer":"B"},
+            {"id":"q3-6","text":"During the 'Testing' stage, what should students primarily do?","type":"multiple-choice","options":["A) Write the final report","B) Check conjectures with new examples","C) Choose a new topic","D) Present findings to the class"],"answer":"B"},
+            {"id":"q3-7","text":"Changing 'Solve x²-5x+6=0' to 'For what k does x²-5x+k=0 have real roots?' demonstrates which strategy?","type":"multiple-choice","options":["A) What-if-not","B) Reverse Thinking","C) Generalize","D) Change Representation"],"answer":"C"},
+            {"id":"q3-8","text":"What is the final step in the mathematical modelling cycle?","type":"multiple-choice","options":["A) Formulate the Mathematical Model","B) Validate the Model","C) Solve the Mathematical Problem","D) Understand the Real-World Problem"],"answer":"B"},
+            {"id":"q3-9","text":"In the exploration stage of polygon diagonals, how many diagonals does a hexagon have?","type":"multiple-choice","options":["A) 6","B) 9","C) 12","D) 15"],"answer":"B"},
+            {"id":"q3-10","text":"Which stage involves presenting findings clearly through reports or presentations?","type":"multiple-choice","options":["A) Explaining","B) Communicating","C) Extending","D) Testing"],"answer":"B"},
+            {"id":"q3-11","text":"Starting from a solution and working backward is called:","type":"multiple-choice","options":["A) Generalize/Specialize","B) Change Representation","C) Reverse Thinking","D) What-if-not"],"answer":"C"},
+            {"id":"q3-12","text":"What does the 'Extending' stage involve?","type":"multiple-choice","options":["A) Gathering initial data","B) Posing new related questions","C) Forming initial conjectures","D) Testing with examples"],"answer":"B"},
+            {"id":"q3-13","text":"Which is mathematical modelling rather than pure investigation?","type":"multiple-choice","options":["A) Exploring patterns in Pascal's Triangle","B) Predicting city population growth using exponential functions","C) Investigating properties of prime numbers","D) Studying Fibonacci sequences"],"answer":"B"},
+            {"id":"q3-14","text":"The justification for the diagonal formula n(n-3)/2 involved:","type":"multiple-choice","options":["A) Each vertex connects to n-3 others, dividing by 2 to avoid double-counting","B) Counting all possible lines and subtracting sides","C) Using complex algebraic manipulation","D) Guessing and checking multiple cases"],"answer":"A"},
+            {"id":"q3-15","text":"Which strategy changes an algebraic problem to a geometric one?","type":"multiple-choice","options":["A) Reverse Thinking","B) What-if-not","C) Change Representation","D) Generalize"],"answer":"C"},
+            {"id":"q3-16","text":"What is the primary purpose of the 'Starting Point' stage?","type":"multiple-choice","options":["A) To present final results","B) To choose an interesting mathematical situation","C) To test conjectures","D) To develop logical arguments"],"answer":"B"},
+            {"id":"q3-17","text":"In P(t) = P₀e^(rt), what does r represent?","type":"multiple-choice","options":["A) Initial population","B) Time in years","C) Growth rate","D) Final population"],"answer":"C"},
+            {"id":"q3-18","text":"Which stage involves developing logical arguments and proofs?","type":"multiple-choice","options":["A) Exploring","B) Conjecturing","C) Explaining","D) Communicating"],"answer":"C"},
+            {"id":"q3-19","text":"'What about 3D polyhedra?' in the diagonal investigation represents which stage?","type":"multiple-choice","options":["A) Starting Point","B) Exploring","C) Testing","D) Extending"],"answer":"D"},
+            {"id":"q3-20","text":"Which characteristic best describes mathematical investigation?","type":"multiple-choice","options":["A) Solution-oriented","B) Process-oriented","C) Always applied to real-world problems","D) Focused on single correct answers"],"answer":"B"},
+            {"id":"q3-21","text":"When testing the diagonal formula for a nonagon (9 sides), what result confirms the conjecture?","type":"multiple-choice","options":["A) 24 diagonals","B) 27 diagonals","C) 30 diagonals","D) 36 diagonals"],"answer":"B"},
+            {"id":"q3-22","text":"'What-if-not' applied to rectangle area might ask:","type":"multiple-choice","options":["A) What if we fix the perimeter instead of dimensions?","B) What is the area formula for a rectangle?","C) How do you calculate the diagonal?","D) What are the properties of rectangles?"],"answer":"A"},
+            {"id":"q3-23","text":"Which is an example of mathematical investigation?","type":"multiple-choice","options":["A) Calculating compound interest on a loan","B) Designing optimal packaging for a product","C) Exploring patterns in consecutive odd numbers","D) Predicting weather using mathematical models"],"answer":"C"},
+            {"id":"q3-24","text":"In the modelling cycle, which step comes after 'Formulate the Model'?","type":"multiple-choice","options":["A) Understand the Real-World Problem","B) Solve the Mathematical Problem","C) Interpret the Results","D) Validate the Model"],"answer":"B"},
+            {"id":"q3-25","text":"What is the key difference between investigation and modelling?","type":"multiple-choice","options":["A) Investigation uses algebra while modelling uses geometry","B) Investigation explores pure mathematics while modelling solves real-world problems","C) Investigation is easier than modelling","D) Modelling is only for advanced students"],"answer":"B"},
+            {"id":"q3-26","text":"Which stage involves gathering empirical evidence and looking for patterns?","type":"multiple-choice","options":["A) Starting Point","B) Exploring","C) Conjecturing","D) Testing"],"answer":"B"},
+            {"id":"q3-27","text":"The reverse thinking strategy might transform 'Prove the Pythagorean theorem' into:","type":"multiple-choice","options":["A) 'Calculate the hypotenuse of a right triangle'","B) 'Given a²+b²=c², what can you say about the triangle?'","C) 'Find the area of a right triangle'","D) 'What are the trigonometric ratios?'"],"answer":"B"},
+            {"id":"q3-28","text":"What makes a good mathematical investigation topic?","type":"multiple-choice","options":["A) Only one correct solution method","B) Can be solved quickly using memorized formulas","C) Has potential for discovery and multiple approaches","D) Focuses on routine calculations"],"answer":"C"},
+            {"id":"q3-29","text":"In the population growth model, what does P₀ represent?","type":"multiple-choice","options":["A) Growth rate","B) Time period","C) Current population","D) Future population"],"answer":"C"},
+            {"id":"q3-30","text":"The main purpose of mathematical problem posing is to:","type":"multiple-choice","options":["A) Create more homework for students","B) Develop creativity and deeper mathematical understanding","C) Make mathematics more difficult","D) Replace textbook problems"],"answer":"B"}
+          ]
+        }
+      ]
+    }
+  ]
+}

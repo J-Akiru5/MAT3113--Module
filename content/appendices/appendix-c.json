@@ -1,0 +1,34 @@
+{
+  "id": "appendix-c",
+  "order": 103,
+  "title": "Sample Investigation Papers",
+  "label": "Appendix C",
+  "blocks": [
+    {
+      "id": "appC-1",
+      "type": "richtext",
+      "html": "<p>This appendix provides guidance on the structure and content expected in a completed mathematical investigation paper. Students may refer to these samples when preparing their own investigations.</p>"
+    },
+    {
+      "id": "appC-2",
+      "type": "callout",
+      "style": "objective",
+      "title": "Sample Investigation Structure",
+      "items": [
+        "<strong>Title Page:</strong> Title, author(s), course, date",
+        "<strong>Introduction:</strong> Investigation question, motivation, mathematical context",
+        "<strong>Methodology:</strong> How data was collected, strategies employed, tools used",
+        "<strong>Findings and Analysis:</strong> Data tables, patterns observed, conjectures formulated",
+        "<strong>Justification and Proof:</strong> Mathematical reasoning, proofs, verification methods",
+        "<strong>Conclusions and Reflections:</strong> Summary of discoveries, challenges, what was learned",
+        "<strong>Extensions:</strong> New questions raised, directions for further investigation",
+        "<strong>References:</strong> Sources consulted during the investigation"
+      ]
+    },
+    {
+      "id": "appC-3",
+      "type": "richtext",
+      "html": "<p><strong>Note:</strong> The actual sample papers from previous students are available from the instructor. This appendix serves as a structural guide for preparing your own investigation paper.</p>"
+    }
+  ]
+}

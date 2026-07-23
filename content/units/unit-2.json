@@ -1,0 +1,363 @@
+{
+  "id": "unit-2",
+  "order": 2,
+  "title": "Problem Solving Heuristics",
+  "sections": [
+    {
+      "id": "unit-2-sec-0",
+      "order": 0,
+      "heading": "Introduction to Heuristics",
+      "blocks": [
+        {
+          "id": "u2b0",
+          "type": "callout",
+          "style": "objective",
+          "title": "Learning Objectives",
+          "items": [
+            "Identify methods appropriate for solving a problem",
+            "Demonstrate how strategies can be applied to problems in real life",
+            "Solve problems by applying appropriate problem-solving techniques",
+            "Solve problems correctly in at least two ways",
+            "Appreciate the relevance of problem-solving in real life through active participation"
+          ]
+        },
+        {
+          "id": "u2b1",
+          "type": "richtext",
+          "html": "<h3>What are Heuristics?</h3><p>Heuristics are general strategies or \"rules of thumb\" for solving problems. They are not guaranteed algorithms but rather flexible approaches that often lead to solutions. Heuristics are like tools in a toolbox — you select the right tool for the specific job.</p>"
+        },
+        {
+          "id": "u2b2",
+          "type": "callout",
+          "style": "key-point",
+          "title": "Why Multiple Strategies?",
+          "items": [
+            "Different problems require different approaches",
+            "Students have diverse thinking styles",
+            "Real-world problems rarely have single solution paths",
+            "Develops mathematical flexibility and creativity"
+          ]
+        },
+        {
+          "id": "u2b3",
+          "type": "richtext",
+          "html": "<p>To be effective investigators, we need a toolkit of strategies:</p><ul><li><strong>Looking for Patterns:</strong> Numerical, geometric, visual</li><li><strong>Organizing Data:</strong> Using tables, charts, lists, diagrams</li><li><strong>Creating Representations:</strong> Drawing pictures, graphs, manipulatives</li><li><strong>Working Backwards:</strong> Starting from a desired result</li><li><strong>Considering Special Cases:</strong> Testing with simple or extreme examples</li><li><strong>Generalizing:</strong> Moving from specific observations to a general rule</li><li><strong>Conjecturing:</strong> Stating an \"I think that...\" proposition clearly</li></ul>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-1",
+      "order": 1,
+      "heading": "2.1 Algebraic Approach",
+      "blocks": [
+        {
+          "id": "u2b4",
+          "type": "richtext",
+          "html": "<p>Using algebraic symbols and equations to represent and solve problems.</p><p><strong>When to use:</strong> Problems with unknown quantities, situations with clear relationships between variables, when precise numerical answers are needed.</p>"
+        },
+        {
+          "id": "u2b5",
+          "type": "callout",
+          "style": "note",
+          "title": "Example 1",
+          "html": "<p><strong>A number plus twice that number is 45. Find the number.</strong></p><p>Let x = the number<br>Equation: x + 2x = 45<br>3x = 45<br><strong>x = 15</strong></p>"
+        },
+        {
+          "id": "u2b6",
+          "type": "callout",
+          "style": "note",
+          "title": "Example 2",
+          "html": "<p><strong>Find three consecutive integers whose sum is 87.</strong></p><p>Let x = first integer, x+1 = second, x+2 = third<br>Equation: x + (x+1) + (x+2) = 87<br>3x + 3 = 87 → 3x = 84 → <strong>x = 28</strong><br>Answer: <strong>28, 29, 30</strong></p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-2",
+      "order": 2,
+      "heading": "2.2 Model Approach",
+      "blocks": [
+        {
+          "id": "u2b7",
+          "type": "richtext",
+          "html": "<p>Using visual representations like bar models, diagrams, or physical manipulatives.</p><p><strong>When to use:</strong> Problems with part-whole relationships, when students struggle with abstract thinking, ratio and proportion problems.</p>"
+        },
+        {
+          "id": "u2b8",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>John has 3 times as many marbles as Peter. Together they have 48 marbles. How many does each have?</strong></p><p>Bar Model: John = 3 units, Peter = 1 unit<br>Total: 4 units = 48 marbles<br>1 unit = 12 marbles (Peter)<br>3 units = 36 marbles (John)</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-3",
+      "order": 3,
+      "heading": "2.3 Make a Table",
+      "blocks": [
+        {
+          "id": "u2b9",
+          "type": "richtext",
+          "html": "<p>Organizing data systematically in a table format to identify patterns.</p><p><strong>When to use:</strong> Problems with multiple variables, looking for patterns, when trial and error is needed.</p>"
+        },
+        {
+          "id": "u2b10",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>How many different outfits can you make with 3 shirts and 2 pants?</strong></p>"
+        },
+        {
+          "id": "u2b11",
+          "type": "table",
+          "caption": "Outfit Combinations",
+          "columns": ["Shirt", "Pant 1", "Pant 2"],
+          "rows": [
+            ["Red", "Outfit 1", "Outfit 2"],
+            ["Blue", "Outfit 3", "Outfit 4"],
+            ["Green", "Outfit 5", "Outfit 6"]
+          ]
+        },
+        {
+          "id": "u2b12",
+          "type": "richtext",
+          "html": "<p><strong>Answer: 6 different outfits</strong></p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-4",
+      "order": 4,
+      "heading": "2.4 Listing",
+      "blocks": [
+        {
+          "id": "u2b13",
+          "type": "richtext",
+          "html": "<p>Systematically listing all possibilities to ensure completeness.</p><p><strong>When to use:</strong> Combinatorial problems, when order or arrangement matters, probability problems.</p>"
+        },
+        {
+          "id": "u2b14",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>List all 2-digit numbers you can make with digits 2, 4, 6 without repetition.</strong></p><p><strong>Solution:</strong> 24, 26, 42, 46, 62, 64</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-5",
+      "order": 5,
+      "heading": "2.5 Looking for Patterns",
+      "blocks": [
+        {
+          "id": "u2b15",
+          "type": "richtext",
+          "html": "<p>Identifying and extending numerical or geometric patterns.</p><p><strong>When to use:</strong> Sequence problems, problems with repeated operations, when a rule or formula can be generalized.</p>"
+        },
+        {
+          "id": "u2b16",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>What is the 10th term in the sequence: 2, 5, 8, 11, ...?</strong></p><p><strong>Pattern Recognition:</strong> Terms increase by 3 each time<br>nth term = 3n − 1<br>10th term = 3(10) − 1 = <strong>29</strong></p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-6",
+      "order": 6,
+      "heading": "2.6 Guess and Check",
+      "blocks": [
+        {
+          "id": "u2b17",
+          "type": "richtext",
+          "html": "<p>Making educated guesses and refining based on results.</p><p><strong>When to use:</strong> When other methods seem too complex, problems with limited possible answers, to build intuition before formalizing.</p>"
+        },
+        {
+          "id": "u2b18",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>I'm thinking of two numbers. Their product is 48, and their difference is 2. What are the numbers?</strong></p><p><strong>Guessing Process:</strong> Try 8 and 6: product 48 ✓, difference 2 ✓<br><strong>Answer: 8 and 6</strong></p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-7",
+      "order": 7,
+      "heading": "2.7 Working Backwards",
+      "blocks": [
+        {
+          "id": "u2b19",
+          "type": "richtext",
+          "html": "<p>Starting from the result and reversing the operations.</p><p><strong>When to use:</strong> Problems with a known end point, when operations are reversible, age problems.</p>"
+        },
+        {
+          "id": "u2b20",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>I did some shopping. I spent half of my money, then ₱100 more. I have ₱200 left. How much did I start with?</strong></p><p>Before last spending: ₱200 + ₱100 = ₱300<br>This was half of original: Original = ₱300 × 2 = <strong>₱600</strong></p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-8",
+      "order": 8,
+      "heading": "2.8 Geometric Approach",
+      "blocks": [
+        {
+          "id": "u2b21",
+          "type": "richtext",
+          "html": "<p>Using geometric principles, diagrams, or spatial reasoning.</p><p><strong>When to use:</strong> Problems involving shapes, space, or measurement, optimization problems, when visualization helps understanding.</p>"
+        },
+        {
+          "id": "u2b22",
+          "type": "callout",
+          "style": "note",
+          "title": "Example",
+          "html": "<p><strong>What's the area of a walkway 2m wide around a rectangular pool 20m × 15m?</strong></p><p>Outer rectangle: 24m × 19m (adding 2m each side)<br>Area = (24×19) − (20×15) = 456 − 300 = <strong>156 m²</strong></p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-9",
+      "order": 9,
+      "heading": "2.9 Using Softwares/Applications",
+      "blocks": [
+        {
+          "id": "u2b23",
+          "type": "richtext",
+          "html": "<p>Leveraging technology to solve complex problems.</p><p><strong>When to use:</strong> Large datasets, complex calculations, visualization needs, real-world modeling.</p>"
+        },
+        {
+          "id": "u2b24",
+          "type": "callout",
+          "style": "note",
+          "title": "Technology Tools",
+          "items": [
+            "<strong>GeoGebra</strong> — for geometric investigations",
+            "<strong>Desmos</strong> — for graphing and equations",
+            "<strong>Spreadsheets</strong> — for data analysis",
+            "<strong>Python/R</strong> — for statistical modeling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-10",
+      "order": 10,
+      "heading": "Implementing Heuristics in the Classroom",
+      "blocks": [
+        {
+          "id": "u2b25",
+          "type": "callout",
+          "style": "objective",
+          "title": "Decision Framework for Selecting a Strategy",
+          "items": [
+            "<strong>Understand the problem:</strong> What is being asked?",
+            "<strong>Analyze the information:</strong> What data is given?",
+            "<strong>Consider constraints:</strong> Are there limitations?",
+            "<strong>Choose strategy:</strong> Which heuristic fits best?",
+            "<strong>Evaluate:</strong> Does this approach make sense?"
+          ]
+        },
+        {
+          "id": "u2b26",
+          "type": "richtext",
+          "html": "<h4>Teaching Multiple Approaches: The Handshake Problem</h4><p>If 10 people each shake hands with everyone else, how many handshakes occur?</p><p><strong>Approach 1 - Systematic Counting:</strong> 9 + 8 + 7 + ... + 1 = 45</p><p><strong>Approach 2 - Combinatorial Reasoning:</strong> C(10,2) = 10!/(2!8!) = 45</p><p><strong>Approach 3 - Geometric Model:</strong> Represent as complete graph with 10 vertices</p>"
+        },
+        {
+          "id": "u2b27",
+          "type": "callout",
+          "style": "reminder",
+          "title": "Sample Problems for Practice",
+          "items": [
+            "<strong>Algebraic:</strong> The sum of three consecutive even numbers is 78. Find the numbers. (24, 26, 28)",
+            "<strong>Model:</strong> A recipe calls for 2 cups flour to 1 cup sugar. For 6 cups flour, how much sugar? (3 cups)",
+            "<strong>Pattern:</strong> What is the sum of the first 50 odd numbers? (2500 = 50²)",
+            "<strong>Working Backwards:</strong> I doubled my money, spent ₱100, and have ₱300 left. How much did I start with? (₱200)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-11",
+      "order": 11,
+      "heading": "Chapter 2 Worksheet: Case Studies",
+      "blocks": [
+        {
+          "id": "u2b28",
+          "type": "worksheet",
+          "title": "Case Study No. 1: Personal Budget Planning",
+          "instructions": "Solve using multiple approaches.",
+          "problems": [
+            {
+              "id": "cs1-p1",
+              "number": 1,
+              "text": "<strong>Problem:</strong> You have ₱20,000 monthly income. Allocate funds for housing, food, transportation, savings, and entertainment.<br><br><strong>Multiple Approaches:</strong><br>• <strong>Algebraic:</strong> Set up equations for percentages<br>• <strong>Model Approach:</strong> Use pie charts or bar graphs<br>• <strong>Table Method:</strong> Compare different allocation scenarios<br>• <strong>Guess and Check:</strong> Adjust allocations until balanced"
+            }
+          ]
+        },
+        {
+          "id": "u2b29",
+          "type": "worksheet",
+          "title": "Case Study No. 2: Home Renovation",
+          "instructions": "Solve using multiple approaches.",
+          "problems": [
+            {
+              "id": "cs2-p1",
+              "number": 1,
+              "text": "<strong>Problem:</strong> You want to tile a rectangular floor measuring 4m × 6m using square tiles. What size tiles minimize waste?<br><br><strong>Multiple Approaches:</strong><br>• <strong>Geometric:</strong> Draw scale diagrams<br>• <strong>Algebraic:</strong> Use factors and multiples<br>• <strong>Table:</strong> Compare different tile sizes<br>• <strong>Technology:</strong> Use a spreadsheet to calculate waste percentages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-2-sec-12",
+      "order": 12,
+      "heading": "Chapter 2 Quiz",
+      "blocks": [
+        {
+          "id": "u2b30",
+          "type": "quiz",
+          "refId": "chapter-2-quiz",
+          "title": "Chapter 2 Quiz",
+          "questions": [
+            {"id":"q2-1","text":"What are heuristics in problem-solving?","type":"multiple-choice","options":["A) Step-by-step algorithms guaranteed to work","B) Fixed formulas for specific types of problems","C) General strategies or 'rules of thumb' for solving problems","D) Calculators and computer programs for mathematics"],"answer":"C"},
+            {"id":"q2-2","text":"Which approach is MOST appropriate for finding all possible combinations of 4 ice cream flavors chosen 2 at a time?","type":"multiple-choice","options":["A) Algebraic Approach","B) Working Backwards","C) Listing","D) Guess and Check"],"answer":"C"},
+            {"id":"q2-3","text":"In the sequence 2, 5, 8, 11, ..., what pattern is being used?","type":"multiple-choice","options":["A) Multiply by 2 each time","B) Add 3 each time","C) Square the term number","D) Alternate between adding and subtracting"],"answer":"B"},
+            {"id":"q2-4","text":"A student has ₱500. She spends half on books, then ₱100 on supplies, and has ₱150 left. Which heuristic is BEST?","type":"multiple-choice","options":["A) Looking for Patterns","B) Working Backwards","C) Making a Table","D) Geometric Approach"],"answer":"B"},
+            {"id":"q2-5","text":"Which problem is BEST solved using the model approach with bar models?","type":"multiple-choice","options":["A) Finding the area of a complex shape","B) Solving 3x + 7 = 22","C) Determining what fraction of a pizza remains after eating 2/3 of it","D) Calculating the distance between two cities on a map"],"answer":"C"},
+            {"id":"q2-6","text":"For 'Find three consecutive integers whose sum is 87,' letting x, x+1, x+2 represent the numbers demonstrates which heuristic?","type":"multiple-choice","options":["A) Guess and Check","B) Algebraic Approach","C) Working Backwards","D) Looking for Patterns"],"answer":"B"},
+            {"id":"q2-7","text":"When should 'Guess and Check' typically be used?","type":"multiple-choice","options":["A) When dealing with geometric proofs","B) When problems have limited possible answers","C) When working with large datasets","D) When precise algebraic solutions are needed"],"answer":"B"},
+            {"id":"q2-8","text":"What is the main advantage of teaching multiple problem-solving strategies?","type":"multiple-choice","options":["A) It makes mathematics easier for all students","B) It eliminates the need for memorization","C) It develops mathematical flexibility and creativity","D) It reduces the time needed to solve problems"],"answer":"C"},
+            {"id":"q2-9","text":"In the handshake problem with 10 people, which approach uses C(10,2)?","type":"multiple-choice","options":["A) Systematic Counting","B) Geometric Model","C) Combinatorial Reasoning","D) Algebraic Approach"],"answer":"C"},
+            {"id":"q2-10","text":"Which technology tool is MOST appropriate for investigating geometric transformations?","type":"multiple-choice","options":["A) Spreadsheets","B) Python/R","C) GeoGebra","D) Desmos"],"answer":"C"},
+            {"id":"q2-11","text":"For 'How many rectangles of different sizes can be found in a 3x3 grid?', which heuristic is MOST appropriate?","type":"multiple-choice","options":["A) Working Backwards","B) Making a Table","C) Algebraic Approach","D) Geometric Approach"],"answer":"D"},
+            {"id":"q2-12","text":"What is the FIRST step in the decision framework for selecting a strategy?","type":"multiple-choice","options":["A) Choose which heuristic fits best","B) Understand the problem","C) Analyze the information given","D) Consider any constraints"],"answer":"B"},
+            {"id":"q2-13","text":"Which real-world situation is BEST solved using 'Make a Table'?","type":"multiple-choice","options":["A) Calculating compound interest over 10 years","B) Determining the best route between three cities","C) Finding the volume of an irregular container","D) Solving a mystery using clues"],"answer":"A"},
+            {"id":"q2-14","text":"In the marbles problem (John has 3x as many as Peter, total 48), what does one 'unit' represent?","type":"multiple-choice","options":["A) John's marbles","B) Peter's marbles","C) The total marbles","D) The difference in marbles"],"answer":"B"},
+            {"id":"q2-15","text":"Which characteristic makes heuristics different from algorithms?","type":"multiple-choice","options":["A) Heuristics are always faster","B) Heuristics guarantee correct answers","C) Heuristics are flexible and not guaranteed to work","D) Heuristics only work for simple problems"],"answer":"C"},
+            {"id":"q2-16","text":"For 'What is the sum of the first 100 odd numbers?', which heuristic helps discover the pattern?","type":"multiple-choice","options":["A) Working Backwards","B) Guess and Check","C) Looking for Patterns","D) Geometric Approach"],"answer":"C"},
+            {"id":"q2-17","text":"Which problem is LEAST appropriate for the algebraic approach?","type":"multiple-choice","options":["A) Finding the maximum area with fixed perimeter","B) Determining all possible seating arrangements for 5 people","C) Calculating interest on a loan","D) Solving a system of equations"],"answer":"B"},
+            {"id":"q2-18","text":"What does the 'Look Back' step primarily involve?","type":"multiple-choice","options":["A) Starting over with a new strategy","B) Checking work and considering alternatives","C) Asking the teacher for the answer","D) Moving immediately to the next problem"],"answer":"B"},
+            {"id":"q2-19","text":"In the walkway problem (2m around a 20x15m pool), what is the outer rectangle's length?","type":"multiple-choice","options":["A) 20m","B) 22m","C) 24m","D) 26m"],"answer":"C"},
+            {"id":"q2-20","text":"Which software is BEST for creating dynamic graphs of equations?","type":"multiple-choice","options":["A) Spreadsheets","B) Desmos","C) Python","D) Word processors"],"answer":"B"},
+            {"id":"q2-21","text":"What is the main purpose of 'Considering Special Cases'?","type":"multiple-choice","options":["A) To avoid difficult problems","B) To test ideas with simple examples before generalizing","C) To make problems easier for struggling students","D) To eliminate the need for proof"],"answer":"B"},
+            {"id":"q2-22","text":"For 'If 5 workers complete a job in 12 days, how long for 8 workers?', which heuristic is MOST appropriate?","type":"multiple-choice","options":["A) Geometric Approach","B) Algebraic Approach","C) Working Backwards","D) Guess and Check"],"answer":"B"},
+            {"id":"q2-23","text":"Which problem-solving approach is most similar to the scientific method?","type":"multiple-choice","options":["A) Algebraic Approach","B) Guess and Check","C) Working Backwards","D) Looking for Patterns"],"answer":"B"},
+            {"id":"q2-24","text":"What is the key benefit of using the 'Model Approach' with visual representations?","type":"multiple-choice","options":["A) It always provides the fastest solution","B) It helps students struggling with abstract thinking","C) It eliminates calculation errors","D) It works for all types of problems"],"answer":"B"},
+            {"id":"q2-25","text":"In the outfits problem (3 shirts, 2 pants), what mathematical operation is fundamentally used?","type":"multiple-choice","options":["A) Addition","B) Subtraction","C) Multiplication","D) Division"],"answer":"C"},
+            {"id":"q2-26","text":"Which heuristic is MOST useful for solving a mystery or puzzle?","type":"multiple-choice","options":["A) Algebraic Approach","B) Working Backwards","C) Geometric Approach","D) Using Software"],"answer":"B"},
+            {"id":"q2-27","text":"What does 'systematic' mean in the Listing heuristic?","type":"multiple-choice","options":["A) Listing items in alphabetical order","B) Using a random approach","C) Following an organized method to ensure completeness","D) Having a teacher check your work"],"answer":"C"},
+            {"id":"q2-28","text":"Which real-world application BEST uses the Geometric Approach?","type":"multiple-choice","options":["A) Calculating taxes","B) Designing a garden layout","C) Balancing a checkbook","D) Planning a budget"],"answer":"B"},
+            {"id":"q2-29","text":"Why is it important for students to solve problems in multiple ways?","type":"multiple-choice","options":["A) To impress their teachers","B) To develop deeper mathematical understanding","C) To finish assignments faster","D) To avoid using calculators"],"answer":"B"},
+            {"id":"q2-30","text":"In the decision framework, what should you do AFTER choosing a strategy?","type":"multiple-choice","options":["A) Immediately try another strategy","B) Evaluate whether the approach makes sense","C) Ask for help if it seems difficult","D) Skip to the answer key"],"answer":"B"}
+          ]
+        }
+      ]
+    }
+  ]
+}

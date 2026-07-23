@@ -1,65 +1,109 @@
-import Image from "next/image";
+import { BookOpen, Download, GraduationCap, ScrollText } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div>
+      <section className="bg-gradient-to-br from-navy-deep via-navy to-navy-mid py-20 text-white sm:py-28">
+        <div className="container-book">
+          <div className="max-w-2xl">
+            <span className="inline-block text-xs font-semibold uppercase tracking-[.2em] text-violet-soft">
+              ISUFST &middot; College of Education &middot; Dingle Campus
+            </span>
+            <h1 className="mt-3 font-display text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
+              Problem Solving, Mathematical Investigation &amp; Modeling
+            </h1>
+            <p className="mt-5 text-lg leading-relaxed text-navy-mid/60">
+              An interactive instructional module for BSEd Mathematics students, authored by Dr.
+              Irene D. Suganob.
+            </p>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Link
+                href="/module"
+                className="inline-flex items-center gap-2 rounded-lg bg-violet px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-violet/30 transition-all hover:bg-violet-strong hover:shadow-xl"
+              >
+                <BookOpen className="h-4 w-4" />
+                Read the Module
+              </Link>
+              <Link
+                href="/downloads/module-latest.pdf"
+                className="inline-flex items-center gap-2 rounded-lg border border-white/25 px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
+              >
+                <Download className="h-4 w-4" />
+                Download PDF
+              </Link>
+              <Link
+                href="/syllabus"
+                className="inline-flex items-center gap-2 rounded-lg border border-white/25 px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
+              >
+                <ScrollText className="h-4 w-4" />
+                View Syllabus
+              </Link>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </section>
+
+      <section className="py-16 sm:py-20">
+        <div className="container-book">
+          <div className="grid gap-8 sm:grid-cols-3">
+            <FeatureCard
+              icon={<BookOpen className="h-6 w-6" />}
+              title="Read Online"
+              description="Browse the module in flipbook or scroll mode — switch anytime. Mobile-friendly and accessible."
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <FeatureCard
+              icon={<Download className="h-6 w-6" />}
+              title="Download PDF"
+              description="Export the complete module as a print-ready PDF matching the A4 page layout."
+            />
+            <FeatureCard
+              icon={<GraduationCap className="h-6 w-6" />}
+              title="For Educators"
+              description="Designed for BSEd Mathematics instruction. Includes rubrics, worksheets, quizzes, and guided investigations."
+            />
+          </div>
         </div>
-      </main>
+      </section>
+
+      <section className="border-t border-border bg-violet-wash py-16 sm:py-20">
+        <div className="container-book text-center">
+          <h2 className="font-display text-2xl font-bold text-navy sm:text-3xl">
+            About the Author
+          </h2>
+          <p className="mx-auto mt-4 max-w-lg text-gray">
+            Dr. Irene D. Suganob is a faculty member of the College of Education at ISUFST Dingle
+            Campus. This module reflects her commitment to developing future mathematics educators
+            through structured, inquiry-based learning materials.
+          </p>
+          <Link
+            href="/about"
+            className="mt-6 inline-flex items-center gap-2 rounded-lg border border-violet/30 px-5 py-2.5 text-sm font-medium text-violet-strong transition-colors hover:bg-violet-soft"
+          >
+            Learn more about the author
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function FeatureCard({
+  icon,
+  title,
+  description,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="card text-center">
+      <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-violet-soft text-violet">
+        {icon}
+      </div>
+      <h3 className="font-display text-lg font-bold text-navy">{title}</h3>
+      <p className="mt-2 text-sm text-gray">{description}</p>
     </div>
   );
 }

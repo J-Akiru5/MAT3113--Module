@@ -1,0 +1,54 @@
+{
+  "id": "appendix-b",
+  "order": 102,
+  "title": "Technology Resources Guide",
+  "label": "Appendix B",
+  "blocks": [
+    {
+      "id": "appB-1",
+      "type": "richtext",
+      "html": "<h3>Essential Tools for Mathematical Investigation</h3>"
+    },
+    {
+      "id": "appB-2",
+      "type": "callout",
+      "style": "note",
+      "title": "GeoGebra — Dynamic Geometry",
+      "html": "<p>GeoGebra is a free, open-source dynamic mathematics software for all levels of education. It combines geometry, algebra, spreadsheets, graphing, statistics, and calculus in one tool.</p><p><strong>Best for:</strong> Geometric investigations, exploring transformations, visualizing functions, constructing dynamic diagrams.</p><p><strong>Website:</strong> https://www.geogebra.org/</p>"
+    },
+    {
+      "id": "appB-3",
+      "type": "callout",
+      "style": "note",
+      "title": "Desmos — Graphing and Calculations",
+      "html": "<p>Desmos is a free online graphing calculator and activity builder. It allows students to explore mathematical concepts through interactive graphs and activities.</p><p><strong>Best for:</strong> Graphing equations, exploring function behavior, creating dynamic visualizations, classroom activities.</p><p><strong>Website:</strong> https://www.desmos.com/</p>"
+    },
+    {
+      "id": "appB-4",
+      "type": "callout",
+      "style": "note",
+      "title": "Spreadsheets — Data Organization",
+      "html": "<p>Spreadsheets (Google Sheets, Microsoft Excel, LibreOffice Calc) are excellent for organizing, analyzing, and visualizing data.</p><p><strong>Best for:</strong> Organizing collected data, creating tables and charts, performing calculations on large datasets, pattern identification.</p>"
+    },
+    {
+      "id": "appB-5",
+      "type": "callout",
+      "style": "note",
+      "title": "Python/JavaScript — Programming Investigations",
+      "html": "<p>Programming languages enable students to automate investigations, handle large computations, and build computational models.</p><p><strong>Best for:</strong> Statistical modeling, simulation of mathematical scenarios, algorithmic investigations, data analysis and visualization.</p>"
+    },
+    {
+      "id": "appB-6",
+      "type": "callout",
+      "style": "reminder",
+      "title": "Guidelines for Technology Use",
+      "items": [
+        "Technology should support, not replace, mathematical thinking",
+        "Always verify technology-generated results with mathematical reasoning",
+        "Document the technology tools used in your investigation report",
+        "Consider accessibility — ensure all group members can use the chosen tools",
+        "Use screen captures and exports to include technology-based evidence in reports"
+      ]
+    }
+  ]
+}

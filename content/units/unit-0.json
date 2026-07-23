@@ -1,0 +1,149 @@
+{
+  "id": "unit-0",
+  "order": 0,
+  "title": "Course Orientation",
+  "sections": [
+    {
+      "id": "unit-0-sec-1",
+      "order": 1,
+      "heading": "Institutional Mandate, Vision & Mission",
+      "blocks": [
+        {
+          "id": "u0b1",
+          "type": "richtext",
+          "html": "<p><strong>ILOILO STATE UNIVERSITY OF FISHERIES SCIENCE AND TECHNOLOGY</strong></p><p><strong>COLLEGE OF EDUCATION</strong></p>"
+        },
+        {
+          "id": "u0b2",
+          "type": "callout",
+          "style": "objective",
+          "title": "Mandate",
+          "html": "<p>To provide advanced education, higher technological, professional instruction and training in fisheries technology, arts and sciences, education, industrial technology, engineering, aquaculture, seaweed farming and other fields of study and as may be relevant to national development. It shall undertake research, extension services and production activities in support of leadership in its areas of specialization.</p>"
+        },
+        {
+          "id": "u0b3",
+          "type": "callout",
+          "style": "key-point",
+          "title": "Vision",
+          "html": "<p>A leading and empowering research university in fisheries, agriculture, education, maritime studies, arts, sciences, and technology in Southeast Asia by 2030.</p>"
+        },
+        {
+          "id": "u0b4",
+          "type": "callout",
+          "style": "key-point",
+          "title": "Mission",
+          "html": "<p>To produce globally competitive and empowered graduates in fisheries, agriculture, education, maritime studies, arts, sciences, and technology, and to capacitate individuals and communities towards sufficiency for nation-building.</p>"
+        },
+        {
+          "id": "u0b5",
+          "type": "callout",
+          "style": "note",
+          "title": "Guiding Principles",
+          "items": [
+            "<strong>I</strong> - Integrity",
+            "<strong>S</strong> - Social Justice",
+            "<strong>D</strong> - Discipline",
+            "Academic Excellence"
+          ]
+        },
+        {
+          "id": "u0b6",
+          "type": "callout",
+          "style": "objective",
+          "title": "Goals",
+          "html": "<p>To develop competent teachers imbued with positive values and rich ideals of Filipino life and culture that are responsive to a sound educational technology that could help hasten the social, economic, and ecological development of the nation, especially in Western Visayas.</p>"
+        },
+        {
+          "id": "u0b7",
+          "type": "callout",
+          "style": "objective",
+          "title": "Objectives",
+          "items": [
+            "Produce quality graduates who will contribute to the advancement of their chosen field",
+            "Conduct viable research, develop and disseminate technologies, and provide technical assistance to the community for increased production",
+            "Offer curricular programs that are responsive to the needs of the community and industries for national development",
+            "Promote self-employment and entrepreneurship",
+            "Strengthen opportunities for scholarships and training among students, faculty, and staff",
+            "Strengthen and develop linkages with other agencies or institutions to achieve the goals and objectives both in the national and international levels",
+            "Improve facilities and structures that will efficiently and effectively carry out quality instruction, research and development, extension, and production"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-0-sec-2",
+      "order": 2,
+      "heading": "Course Information",
+      "blocks": [
+        {
+          "id": "u0b8",
+          "type": "table",
+          "caption": "Course Details",
+          "columns": ["Field", "Detail"],
+          "rows": [
+            ["Course Title", "Problem Solving, Mathematical Investigation and Modeling"],
+            ["Course Number", "MAT 3113"],
+            ["Credit", "3 units"],
+            ["Program", "BSEd Mathematics"]
+          ]
+        },
+        {
+          "id": "u0b9",
+          "type": "richtext",
+          "html": "<p><strong>Course Description:</strong> This course aims to enhance students' knowledge and skills in dealing with real-life and non-routine applications of mathematics. Students will have the opportunity to explore the use of problem-solving strategies or heuristics as they engage in mathematical investigations, formulate and justify conjectures, make generalizations, and communicate mathematical ideas.</p>"
+        },
+        {
+          "id": "u0b10",
+          "type": "callout",
+          "style": "objective",
+          "title": "Learning Outcomes",
+          "items": [
+            "Demonstrate comprehensive understanding of problem-solving processes and strategies",
+            "Apply various problem-solving heuristics to diverse mathematical situations",
+            "Design and implement mathematical investigations for diverse learners",
+            "Create and apply mathematical models to real-world situations",
+            "Conduct and present mathematical investigations following proper methodology"
+          ]
+        },
+        {
+          "id": "u0b11",
+          "type": "callout",
+          "style": "note",
+          "title": "Course Outline",
+          "items": [
+            "Unit 0: Course Orientation",
+            "Unit 1: Problem Solving and Mathematics Education",
+            "Unit 2: Problem Solving Heuristics",
+            "Unit 3: Concepts on Mathematical Investigation and Modelling",
+            "Unit 4: Mathematical Investigation/Modeling"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-0-sec-3",
+      "order": 3,
+      "heading": "Grading System",
+      "blocks": [
+        {
+          "id": "u0b12",
+          "type": "table",
+          "caption": "Grade Components — Lecture Courses",
+          "columns": ["Component", "Percentage"],
+          "rows": [
+            ["Midterm/Final Examination", "40%"],
+            ["Quizzes/Activities/Worksheets/Tasks", "30%"],
+            ["Outputs/Projects", "20%"],
+            ["Oral Participation/Oral Presentation", "10%"],
+            ["Total", "100%"]
+          ]
+        },
+        {
+          "id": "u0b13",
+          "type": "richtext",
+          "html": "<p><strong>Final Grade = (Midterm Grade + Tentative Final Grade) / 2</strong></p>"
+        }
+      ]
+    }
+  ]
+}

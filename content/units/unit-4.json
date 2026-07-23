@@ -1,0 +1,328 @@
+{
+  "id": "unit-4",
+  "order": 4,
+  "title": "Mathematical Investigation/Modeling",
+  "sections": [
+    {
+      "id": "unit-4-sec-0",
+      "order": 0,
+      "heading": "Learning Objectives",
+      "blocks": [
+        {
+          "id": "u4b0",
+          "type": "callout",
+          "style": "objective",
+          "title": "By the end of this module, you will be able to:",
+          "items": [
+            "Participate actively and collaboratively in the initial conduct of a mathematical investigation",
+            "Pose problems related to the situation identified by the group",
+            "Participate actively and collaboratively in formulating conjectures",
+            "Formulate conjectures gathered from gathered data",
+            "Participate actively and collaboratively in verifying conjectures",
+            "Verify conjectures using an appropriate verification method",
+            "Participate actively and collaboratively in justifying conjectures",
+            "Prove conjectures using an appropriate method of proving",
+            "Participate actively and collaboratively in formulating the summary and possible extensions of their MI paper",
+            "Participate actively in the MI Congress"
+          ]
+        },
+        {
+          "id": "u4b1",
+          "type": "callout",
+          "style": "key-point",
+          "title": "Foundations of Collaborative Mathematical Investigation",
+          "items": [
+            "<strong>Diverse Perspectives</strong> — different group members see different aspects",
+            "<strong>Cognitive Synergy</strong> — group thinking that surpasses individual capabilities",
+            "<strong>Social Learning</strong> — learning mathematical communication and argumentation skills",
+            "<strong>Real-World Preparation</strong> — mirrors how mathematicians actually work"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-1",
+      "order": 1,
+      "heading": "4.1 Getting Started",
+      "blocks": [
+        {
+          "id": "u4b2",
+          "type": "richtext",
+          "html": "<p><strong>Choosing Investigation Topics:</strong></p><ul><li>Personal interest and curiosity</li><li>Availability of resources</li><li>Mathematical significance</li><li>Real-world relevance</li></ul><p><strong>Example Starter:</strong> Investigate the Fibonacci sequence in nature.</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-2",
+      "order": 2,
+      "heading": "4.2 Close vs Open-ended Problems",
+      "blocks": [
+        {
+          "id": "u4b3",
+          "type": "richtext",
+          "html": "<p><strong>Close-ended:</strong> Single correct answer.<br>Example: \"Solve 2x + 5 = 15\"</p><p><strong>Open-ended:</strong> Multiple approaches and solutions.<br>Example: \"Find as many ways as possible to make 50 using operations and digits 2, 3, 4\"</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-3",
+      "order": 3,
+      "heading": "4.3 Problem Identification",
+      "blocks": [
+        {
+          "id": "u4b4",
+          "type": "richtext",
+          "html": "<p><strong>Formulating Clear Research Questions:</strong></p><ul><li>Specific and focused</li><li>Mathematically meaningful</li><li>Investigable with available resources</li></ul><p><strong>Example:</strong> Instead of \"Study triangles,\" use \"Investigate the relationship between triangle side lengths and area.\"</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-4",
+      "order": 4,
+      "heading": "4.4 Organizing Data",
+      "blocks": [
+        {
+          "id": "u4b5",
+          "type": "richtext",
+          "html": "<p><strong>Systematic Data Collection:</strong> Tables and charts, systematic experimentation, careful measurement and recording.</p>"
+        },
+        {
+          "id": "u4b6",
+          "type": "table",
+          "caption": "Example: Investigating Rectangle Areas with Fixed Perimeter (P = 20)",
+          "columns": ["Length", "Width", "Perimeter", "Area"],
+          "rows": [
+            ["1", "9", "20", "9"],
+            ["2", "8", "20", "16"],
+            ["3", "7", "20", "21"],
+            ["4", "6", "20", "24"],
+            ["5", "5", "20", "25"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-5",
+      "order": 5,
+      "heading": "4.5 Formulating Conjectures",
+      "blocks": [
+        {
+          "id": "u4b7",
+          "type": "richtext",
+          "html": "<p><strong>Developing Testable Hypotheses:</strong> Based on observed patterns, clear and specific statements, mathematically precise.</p><p><strong>Example:</strong> For rectangles with fixed perimeter, the area is maximized when the rectangle is a square.</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-6",
+      "order": 6,
+      "heading": "4.6 Verifying Conjectures",
+      "blocks": [
+        {
+          "id": "u4b8",
+          "type": "richtext",
+          "html": "<p><strong>Testing with Multiple Cases:</strong> Try various examples, look for counterexamples, consider edge cases.</p><p><strong>Example:</strong> Test the rectangle conjecture with perimeters 12, 16, 20, etc.</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-7",
+      "order": 7,
+      "heading": "4.7 Justifying Conjecture",
+      "blocks": [
+        {
+          "id": "u4b9",
+          "type": "richtext",
+          "html": "<p><strong>Developing Mathematical Proofs:</strong> Logical reasoning, algebraic justification, geometric arguments.</p><p><strong>Rectangle Justification:</strong> Let perimeter P = 2(l + w), so w = P/2 − l. Area A = l × w = l(P/2 − l) = (P/2)l − l². This is a quadratic, maximum at l = P/4, so w = P/4 → square.</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-8",
+      "order": 8,
+      "heading": "4.8 Writing the Summary and Possible Extensions",
+      "blocks": [
+        {
+          "id": "u4b10",
+          "type": "richtext",
+          "html": "<p><strong>Structuring the Investigation Report:</strong></p><ul><li>Introduction and problem statement</li><li>Methodology and data collection</li><li>Findings and conjectures</li><li>Justification and proofs</li><li>Conclusions and reflections</li><li>Extensions and new questions</li></ul><p><strong>Example Extensions:</strong> \"What about 3D shapes? What if we fix surface area instead of perimeter?\"</p>"
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-9",
+      "order": 9,
+      "heading": "4.9 Finalizing the Paper",
+      "blocks": [
+        {
+          "id": "u4b11",
+          "type": "callout",
+          "style": "note",
+          "title": "Written Report Guide (Approx. 3-5 pages)",
+          "items": [
+            "<strong>Title & Introduction:</strong> State your investigation question and its origins",
+            "<strong>The Process:</strong> Detail your exploration. What strategies did you use? Include your tables, charts, and failed attempts — this is key!",
+            "<strong>Findings & Conjectures:</strong> Clearly state the patterns you found and the conjectures you made",
+            "<strong>Justification & Proof:</strong> Provide your reasoning for why your conjectures are true. This can be logical argument, visual proof, or algebraic proof",
+            "<strong>Conclusions & Reflections:</strong> Summarize your main discovery. What was most challenging? What new questions arose?",
+            "<strong>Extensions:</strong> Suggest one or two ways this investigation could be taken further"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-10",
+      "order": 10,
+      "heading": "4.10 Mathematical Investigation/Modeling Congress",
+      "blocks": [
+        {
+          "id": "u4b12",
+          "type": "callout",
+          "style": "objective",
+          "title": "Presentation Development",
+          "items": [
+            "<strong>Audience Analysis:</strong> Tailoring presentation for mathematical peers",
+            "<strong>Visual Aid Design:</strong> Creating clear, engaging presentation materials",
+            "<strong>Time Management:</strong> Practicing within time constraints (10-12 minutes)",
+            "<strong>Q&A Preparation:</strong> Anticipating and preparing for questions"
+          ]
+        },
+        {
+          "id": "u4b13",
+          "type": "callout",
+          "style": "reminder",
+          "title": "Presentation Tips",
+          "items": [
+            "Hook the audience with your initial question",
+            "Briefly show your process of discovery",
+            "Clearly state your main conjecture and your explanation for it",
+            "Conclude with your most interesting reflection or extension",
+            "Use visual aids (poster, slides, whiteboard) effectively"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-11",
+      "order": 11,
+      "heading": "Situations for Mathematical Investigations",
+      "blocks": [
+        {
+          "id": "u4b14",
+          "type": "richtext",
+          "html": "<p>The following are 25 suggested investigation topics for students to explore:</p>"
+        },
+        {
+          "id": "u4b15",
+          "type": "callout",
+          "style": "note",
+          "title": "Investigation Topics",
+          "items": [
+            "<strong>1. Happy Numbers:</strong> Square each digit and add the squares repeatedly. If sequence reaches 1, the number is 'happy'; otherwise 'sad.' Investigate.",
+            "<strong>2. Lines:</strong> Lines are drawn on a plane. Investigate.",
+            "<strong>3. Ants:</strong> Ants emerge from their hole at the top of a wire grid and always walk downwards. Investigate the paths they may take.",
+            "<strong>4. Consecutive Sums:</strong> Some numbers can be expressed as the sum of consecutive positive integers. 9=2+3+4, 11=5+6, 18=3+4+5+6. Investigate.",
+            "<strong>5. Returns:</strong> A robot walks one pace and turns 90° right, two paces and turns 90° right, three paces and turns 90° right, repeating. Investigate.",
+            "<strong>6. Birthdays:</strong> On what day of the week will your 100th birthday fall? Investigate this and other days of interest.",
+            "<strong>7. Corners:</strong> A figure has two different types of corners. Investigate.",
+            "<strong>8. Triangles:</strong> Draw triangles with sides of integral length and longest side of length 5 units. Investigate.",
+            "<strong>9. Rectangles:</strong> How many rectangles are there in a diagram? Investigate.",
+            "<strong>10. Piles:</strong> Start with two unequal piles of coins. Shift enough coins from the larger pile to double the smaller. Continue. Investigate.",
+            "<strong>11. Sums of Squares:</strong> Some numbers can be written as sums of squares. Investigate.",
+            "<strong>12. Primes:</strong> Look at a table of prime numbers. How are primes spread through the counting numbers? Investigate.",
+            "<strong>13. Co-primes:</strong> Two positive integers are co-prime if their GCF is 1. The four positive integers less than 10 co-prime with 10 are 1,3,7,9. Investigate.",
+            "<strong>14. Tiles:</strong> Two small squares are printed on a square grid. Can the remainder be covered with 2×1 tiles? Investigate.",
+            "<strong>15. Straws:</strong> Squares are made from colored straws. Investigate.",
+            "<strong>16. Coins:</strong> Put coins all heads up on a table. Turning over three at a time, try to get all tails up. Investigate.",
+            "<strong>17. Strips:</strong> Make a strip of squares. Color some whole squares black, leaving others white. Investigate.",
+            "<strong>18. Repeats:</strong> Unit fractions have a numerator of 1. Investigate those whose decimal equivalents recur.",
+            "<strong>19. Joins:</strong> Each of three points can be joined to the other two without any joins crossing. Investigate for more than three points.",
+            "<strong>20. Chords:</strong> Mark points on a circle and join them by chords. Investigate.",
+            "<strong>21. Stairs:</strong> Consider stairs made up of n layers. Investigate.",
+            "<strong>22. Layers of Equilateral Triangles:</strong> Draw equilateral triangles with x layers. Investigate.",
+            "<strong>23. Handshakes:</strong> There are n people at a party and each shakes hands with others. Investigate.",
+            "<strong>24. Diagonals:</strong> Diagonals of regular polygons are connected. Investigate.",
+            "<strong>25. Billiard Balls:</strong> Make a billiard ball triangle of varying layers and varying ball radii. Investigate."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-12",
+      "order": 12,
+      "heading": "Chapter 4 Outputs",
+      "blocks": [
+        {
+          "id": "u4b16",
+          "type": "rubric",
+          "title": "Activity 1: Final Mathematical Investigation Paper (25 points)",
+          "columns": ["Excellent (full pts)", "Proficient", "Developing", "Beginning"],
+          "rows": [
+            {"criteria": "Introduction (3 pts) — Investigation question and motivation", "ratings": ["Clear, compelling question with motivation", "Clear question stated", "Question is vague", "No clear question"]},
+            {"criteria": "Methodology (4 pts) — Collaborative process, data collection, challenges", "ratings": ["Detailed description, systematic methods", "Adequate methods described", "Methods somewhat described", "Methods unclear"]},
+            {"criteria": "Findings and Analysis (8 pts) — Patterns, conjectures, comprehensive analysis", "ratings": ["Insightful patterns, clear conjectures, thorough analysis", "Good patterns and conjectures", "Simple observations, weak analysis", "No clear findings"]},
+            {"criteria": "Justification and Proof (6 pts) — Mathematical reasoning, verification approaches", "ratings": ["Rigorous proof with multiple approaches", "Adequate justification", "Partial justification", "No valid justification"]},
+            {"criteria": "Conclusion and Extensions (4 pts) — Summary, reflection, new questions", "ratings": ["Deep reflection, insightful extensions", "Good summary and extension", "Superficial reflection", "No meaningful reflection"]}
+          ]
+        },
+        {
+          "id": "u4b17",
+          "type": "rubric",
+          "title": "Activity 2: MI Congress Presentation (20 points)",
+          "columns": ["Excellent (full pts)", "Proficient", "Developing", "Beginning"],
+          "rows": [
+            {"criteria": "Content and Mathematical Depth (8 pts)", "ratings": ["Exceptional mathematical depth, comprehensive", "Good mathematical content", "Basic content covered", "Minimal mathematical depth"]},
+            {"criteria": "Collaboration Demonstration (4 pts)", "ratings": ["Equal participation, smooth transitions", "Good coordination among members", "Unequal participation", "One person dominates"]},
+            {"criteria": "Presentation Skills (4 pts)", "ratings": ["Engaging delivery, confident, well-paced", "Clear presentation", "Somewhat disorganized", "Difficult to follow"]},
+            {"criteria": "Visual Aids and Organization (4 pts)", "ratings": ["Professional, enhances understanding", "Clear and relevant", "Basic visuals", "Poor quality, distracting"]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-4-sec-13",
+      "order": 13,
+      "heading": "Chapter 4 Quiz",
+      "blocks": [
+        {
+          "id": "u4b18",
+          "type": "quiz",
+          "refId": "chapter-4-quiz",
+          "title": "Chapter 4 Quiz",
+          "questions": [
+            {"id":"q4-1","text":"What is the main benefit of collaboration in mathematical investigation?","type":"multiple-choice","options":["A) Makes mathematics easier","B) Allows dividing work to finish faster","C) Brings diverse perspectives and creates cognitive synergy","D) Reduces work each student must do"],"answer":"C"},
+            {"id":"q4-2","text":"When choosing an investigation topic, what should be the PRIMARY consideration?","type":"multiple-choice","options":["A) How quickly it can be completed","B) Personal interest and mathematical significance","C) Whether the teacher approves","D) How similar it is to textbook problems"],"answer":"B"},
+            {"id":"q4-3","text":"Which is an example of an open-ended problem?","type":"multiple-choice","options":["A) Solve 3x+7=22","B) Calculate area of circle radius 5","C) Find as many patterns as possible in Pascal's Triangle","D) Multiply 15×24"],"answer":"C"},
+            {"id":"q4-4","text":"What characterizes a well-formulated research question?","type":"multiple-choice","options":["A) Broad and general","B) Specific, focused, and mathematically meaningful","C) Simple enough to solve in one step","D) Similar to textbook questions"],"answer":"B"},
+            {"id":"q4-5","text":"In the rectangle area investigation with fixed perimeter, what pattern was discovered?","type":"multiple-choice","options":["A) Area increases as length increases","B) Area is maximized when the rectangle is a square","C) Area decreases as width increases","D) Area remains constant regardless of dimensions"],"answer":"B"},
+            {"id":"q4-6","text":"Which method was used to justify the rectangle area conjecture?","type":"multiple-choice","options":["A) Asking multiple people","B) Algebraic manipulation showing quadratic optimization","C) Testing only with perimeter of 20","D) Drawing pictures of rectangles"],"answer":"B"},
+            {"id":"q4-7","text":"What is the purpose of the 'Extensions' section in an investigation report?","type":"multiple-choice","options":["A) List all references","B) Suggest new questions and related investigations","C) Summarize what was done","D) Acknowledge people who helped"],"answer":"B"},
+            {"id":"q4-8","text":"When verifying conjectures, what is MOST important?","type":"multiple-choice","options":["A) Only test cases that support the conjecture","B) Look for counterexamples and test edge cases","C) Ask the teacher if correct","D) Assume it is true after a few tests"],"answer":"B"},
+            {"id":"q4-9","text":"What does 'cognitive synergy' in collaboration refer to?","type":"multiple-choice","options":["A) Group thinking that surpasses individual capabilities","B) Dividing work equally","C) Taking turns speaking","D) Smartest person does the work"],"answer":"A"},
+            {"id":"q4-10","text":"Which is the BEST research question for investigation?","type":"multiple-choice","options":["A) Study triangles","B) Investigate relationship between triangle side lengths and area","C) Learn about geometry","D) What is a triangle?"],"answer":"B"},
+            {"id":"q4-11","text":"What is the key difference between close-ended and open-ended problems?","type":"multiple-choice","options":["A) Close-ended are harder","B) Open-ended have multiple approaches and solutions","C) Close-ended require more creativity","D) Open-ended always have right answers"],"answer":"B"},
+            {"id":"q4-12","text":"When organizing data systematically, what is the MAIN benefit of using tables?","type":"multiple-choice","options":["A) They look more professional","B) They help identify patterns and relationships clearly","C) They are required by teachers","D) They take up more space"],"answer":"B"},
+            {"id":"q4-13","text":"What makes a conjecture mathematically precise?","type":"multiple-choice","options":["A) Uses complex language","B) Stated clearly and can be tested","C) Written in paragraph form","D) Includes many examples"],"answer":"B"},
+            {"id":"q4-14","text":"In the MI Congress, what should the opening of a presentation do?","type":"multiple-choice","options":["A) List all formulas used","B) Thank everyone for coming","C) Hook the audience with the initial question","D) Read the entire paper aloud"],"answer":"C"},
+            {"id":"q4-15","text":"What is the purpose of including 'failed attempts' in the investigation report?","type":"multiple-choice","options":["A) Show how much work was done","B) Demonstrate the learning process and exploration","C) Fill space","D) Explain why it was difficult"],"answer":"B"},
+            {"id":"q4-16","text":"Why test the rectangle conjecture with different perimeters?","type":"multiple-choice","options":["A) To make investigation take longer","B) To ensure the pattern holds in multiple cases","C) Because the teacher requires it","D) To have more data for tables"],"answer":"B"},
+            {"id":"q4-17","text":"What is the MAIN goal of 'Conclusions and Reflections'?","type":"multiple-choice","options":["A) Summarize discovery and reflect on the process","B) List all formulas used","C) Thank everyone who helped","D) Suggest topics for future students"],"answer":"A"},
+            {"id":"q4-18","text":"In collaborative conjecture formulation, what should members do FIRST?","type":"multiple-choice","options":["A) Vote on which is probably correct","B) Have each member identify potential patterns individually","C) Let smartest person decide","D) Look up the answer in a textbook"],"answer":"B"},
+            {"id":"q4-19","text":"What does 'audience analysis' involve for the MI Congress?","type":"multiple-choice","options":["A) Counting attendees","B) Tailoring the presentation for mathematical peers","C) Preparing gifts","D) Choosing the best time"],"answer":"B"},
+            {"id":"q4-20","text":"Why consider 'edge cases' when verifying conjectures?","type":"multiple-choice","options":["A) They are usually most interesting","B) They often reveal limitations of the conjecture","C) They make verification faster","D) Required for full credit"],"answer":"B"},
+            {"id":"q4-21","text":"What is the primary value of 'real-world preparation' in collaborative investigation?","type":"multiple-choice","options":["A) Makes math more enjoyable","B) Mirrors how mathematicians actually work","C) Helps get better grades","D) Allows using calculators"],"answer":"B"},
+            {"id":"q4-22","text":"When finalizing the paper, what should be checked for proper mathematical notation?","type":"multiple-choice","options":["A) All formulas, symbols, equations are correct and clear","B) Has enough colorful diagrams","C) Font size is readable","D) No grammar errors"],"answer":"A"},
+            {"id":"q4-23","text":"What is the BEST approach for Q&A preparation for the MI Congress?","type":"multiple-choice","options":["A) Memorize possible questions and answers","B) Anticipate questions and prepare thoughtful responses","C) Hope no one asks difficult questions","D) Ask friends to only ask easy questions"],"answer":"B"},
+            {"id":"q4-24","text":"In rectangle area optimization, what concept explains why area is maximized as a square?","type":"multiple-choice","options":["A) Quadratic functions have maximum values at their vertices","B) Circles have max area for given perimeter","C) All rectangles have same area","D) Triangles always have less area"],"answer":"A"},
+            {"id":"q4-25","text":"What does 'social learning' in collaborative investigation refer to?","type":"multiple-choice","options":["A) Learning mathematical communication and argumentation skills","B) Making friends during group work","C) Sharing answers with other groups","D) Using social media for research"],"answer":"A"},
+            {"id":"q4-26","text":"After brainstorming questions, what should the group do?","type":"multiple-choice","options":["A) Immediately investigate all questions","B) Categorize and prioritize which questions to investigate","C) Ask the teacher which is best","D) Choose the easiest question"],"answer":"B"},
+            {"id":"q4-27","text":"What is the key element of active participation in collaborative work?","type":"multiple-choice","options":["A) Always agreeing with consensus","B) Contributing ideas and building on others' suggestions","C) Letting others do the work","D) Working silently to avoid conflict"],"answer":"B"},
+            {"id":"q4-28","text":"Why is visual aid design important for MI Congress presentations?","type":"multiple-choice","options":["A) To create clear, engaging presentation materials","B) To use most advanced technology","C) To make presentation longer","D) To impress judges with graphics"],"answer":"A"},
+            {"id":"q4-29","text":"What should the Methodology section include?","type":"multiple-choice","options":["A) Only successful strategies","B) All approaches tried, including unsuccessful ones","C) A list of formulas","D) Biographies of group members"],"answer":"B"},
+            {"id":"q4-30","text":"What is the ultimate goal of the Mathematical Investigation Congress?","type":"multiple-choice","options":["A) To win awards","B) To share mathematical discoveries and learn from peers","C) To finish the requirement","D) To prove your group is smartest"],"answer":"B"}
+          ]
+        }
+      ]
+    }
+  ]
+}
