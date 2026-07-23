@@ -95,7 +95,8 @@ function CalloutBlock({ block }: { block: Extract<Block, { type: "callout" }> })
       {block.items && block.items.length > 0 && (
         <ul className="ml-5 list-disc space-y-1 text-sm">
           {block.items.map((item, i) => (
-            <li key={i}>{item}</li>
+            // biome-ignore lint/security/noDangerouslySetInnerHtml: content is author-controlled JSON
+            <li key={i} dangerouslySetInnerHTML={{ __html: item }} />
           ))}
         </ul>
       )}
